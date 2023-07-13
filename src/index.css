@@ -1,0 +1,159 @@
+:root{
+  --main-bg-color: #90c8db;
+  --main-bg-color-hover: #5f96ac;
+  --theme-bg-color: #15202b;
+  --theme-bg-color-hover: #111a24;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--theme-bg-color);
+  color: #fff
+}
+
+span, .link{
+  color: var(--main-bg-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+i{
+  color: var(--main-bg-color);
+  margin: 10px 15px 5px 10px;
+}
+
+/********** Navbar **********/
+.navbar{
+  background-color: var(--theme-bg-color);
+  border-bottom: 1px solid #e5e7eb04;
+}
+
+.title{
+  color: #fff;
+  font-weight: 600;
+}
+
+.title:hover{
+  color: #ececec;
+}
+
+.nav-link{
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-link:hover{
+  color: var(--main-bg-color);
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.resume{
+  background-color: #58afdf1a;
+  border-radius: 1rem;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.resume i{
+  margin: 0;
+}
+
+button{
+  border: transparent;
+  background-color: #58afdf1a;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--main-bg-color);
+  padding: 12px;
+  border-radius: 1rem;
+}
+
+.button:hover{
+  background-color: #4796c013;
+  transition: background .3s ease-in;
+}
+
+/********** About **********/
+
+.about{
+  background-color: #4796c010;
+}
+
+/********** Skills **********/
+.skills-card{
+  background-color: var(--theme-bg-color);
+  border-radius: 1rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.skills-card h5{
+  font-size: 16px;
+}
+
+.skills-card:hover{
+  transition: .3s ease-in;
+  background-color: var(--theme-bg-color-hover);
+  color: var(--main-bg-color);
+}
+
+/********** Projects **********/
+.card-project{
+  background-color: var(--theme-bg-color-hover);
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.card-project h5{
+  color: var(--main-bg-color);
+}
+
+.card-project:hover{
+  background-color: #0d151f;
+  transition: background .3s ease-in;
+}
+
+/********** Contact **********/
+.contact{
+  background-color: #4796c010;
+}
+
+.social i{
+  cursor: pointer;
+}
+
+.social i:hover{
+  color: var(--main-bg-color-hover);
+  transition: .3s ease-in;
+}
+
+/********** Footer **********/
+footer p{
+  font-size: 13px;
+}
+
+/********** Responsive Design **********/
+@media(max-width: 768px){
+  .header{
+    text-align: center;
+  }
+  
+  .resume{
+    margin: 0 auto;
+    padding: 8px;
+  }
+}
