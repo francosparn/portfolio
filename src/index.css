@@ -148,7 +148,7 @@ footer p{
 
 /********** Responsive Design **********/
 @media(max-width: 768px){
-  .header{
+  .home{
     text-align: center;
   }
   
