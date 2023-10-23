@@ -9,13 +9,13 @@ function Home(){
     },[])
 
     return (
-        <section className="home container my-5">
+        <section id="home" className="home container my-5">
             <div className="row align-items-center">
                 <div className="col-md-8" data-aos="fade-right" data-aos-duration="3500">
-                    <h1 className="fw-bold">Hi! Im <span>Franco Sparn</span></h1>
-                    <h5 className="my-3">Back-end developer specialized in Django and Django REST Framework.</h5>
+                    <h1 className="fw-bold">Hola! Soy <span>Franco Sparn</span></h1>
+                    <h5 className="my-3">Desarrollador Back-end especializado en Django y Django REST Framework.</h5>
                     <button className="button">
-                        <a className="link" href="https://linkedin.com/in/francosparn" target="_blank" rel="noopener noreferrer">More Information</a>
+                        <a className="link" href="https://linkedin.com/in/francosparn" target="_blank" rel="noopener noreferrer">Más Información</a>
                     </button>
                 </div>
                 <div className="col-md-4 my-5" data-aos="fade-left" data-aos-duration="3500">

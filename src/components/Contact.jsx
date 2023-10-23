@@ -4,8 +4,8 @@ function Contact(){
             <div className="text-center mb-3">
                 <i className="fa-regular fa-envelope-open fa-2xl"></i>
             </div>
-            <h2 className="fw-bold">Contact</h2>
-            <p>You can find me at</p>
+            <h2 className="fw-bold">Contacto</h2>
+            <p>Puedas encontrarme en</p>
             <div className="social my-5">
                 <a href="https://linkedin.com/in/francosparn" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-linkedin-in fa-2xl"></i>

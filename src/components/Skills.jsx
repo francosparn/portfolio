@@ -6,7 +6,7 @@ function Skills(){
             <div className="text-center mb-3">
                 <i className="fa-solid fa-gears fa-2xl"></i>
             </div>
-            <h2 className="text-center fw-bold mb-5">Skills</h2>
+            <h2 className="text-center fw-bold mb-5">Habilidades</h2>
             <div className="row">
                 {skills.map((skill) =>
                     <div key={skill} className="col-md-4">
